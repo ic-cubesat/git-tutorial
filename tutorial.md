@@ -78,7 +78,7 @@
 
 `git add <path/to/changed/file>`
 
-* Staging means 'I am preparing to commit this work'
+* Staging means _I am preparing to commit this work_
 
 ### Committing your work
 
