@@ -120,4 +120,4 @@
 
 * shows a history of local changes
 
-<!-- # Demo Time! -->
+# Demo Time!
