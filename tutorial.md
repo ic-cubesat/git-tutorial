@@ -18,7 +18,7 @@
 
 # git
 
-* git is an \emph{implementation} of a \emph{distributed VC system}
+* git is an _implementation_ of a _distributed VC system_
 
 * git provides:
     * server utilities
