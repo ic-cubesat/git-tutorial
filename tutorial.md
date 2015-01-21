@@ -42,14 +42,12 @@
 
 ## Workflow
 
-1. git clone - get a copy of the repository
-2. make some changes
-3. git status - check chagnes
-4. git add    - stage changes
-5. git commit - commit changes
-6. git pull   - fetch other changes to the repository that happened in the meantime
-7. git commit - commit the merged changes
-8. git push   - push your changes
+1. get a copy of the _remote_ repository
+2. make some changes & check them
+4. stage & commit changes - save your work _locally_
+6. fetch _remote_ changes that took place in the meantime
+7. integrate these changes with yours (can be automated)
+8. send your version to the repository
 9. done!
 
 # git command line client
