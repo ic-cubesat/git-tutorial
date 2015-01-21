@@ -14,7 +14,7 @@
 
 # Architecture Of a Version Control System
 
-
+![Centralized and distributed version control systems](images/cubesat-git-tutorial-arch.png)
 
 # git
 
