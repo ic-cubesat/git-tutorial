@@ -2,21 +2,26 @@
 
 # Version Control
 
-* solution to the collaborative editing problem
-
 ## Collaborative Editing
 
+### The problem
 - One document, many editors
 - How to allow editors to work in parallel?
 - How to avoid overriding changes?
 - How to keep track of changes?
 - How to revert to previous versions of the document?
 
-# Architecture Of a Version Control System
+### The solution
+- Version Control Systems!
+
+## Architecture Of a Version Control System
 
 ![Centralized and distributed version control systems](images/cubesat-git-tutorial-arch.png)
 
 # git
+
+## About
+<!-- # git -->
 
 * git is an _implementation_ of a _distributed VC system_
 
@@ -33,7 +38,7 @@
 
 * a very good online resource -- http://git-scm.com/
 
-# git
+<!-- # git -->
 
 ## Workflow
 
@@ -49,39 +54,42 @@
 
 # git command line client
 
+## Getting Started
+
+### Getting Help
+
 * To get help on git --- `git --help`
 
 * To get help on a command --- `git help <command>`
 
 * Most commands work only inside a git repository
 
-
-## Copying remote repository
+### Copying remote repository
 
 `git clone <path/to/repository>.git`
 
-## Seeing your changes
+### Seeing your changes
 
 `git status`
 
-# git command line client
+<!-- # git command line client -->
 
-## Staging your changes
+## Saving Changes Locally
+
+### Staging your changes
 
 `git add <path/to/changed/file>`
 
 * Staging means 'I am preparing to commit this work'
 
-## Committing your work
+### Committing your work
 
 `git commit -m <Useful message>`
 
 * Commits all staged changes to your local repo
 * Useful messages are helpful when reviewing change history
 
-# git command line client
-
-## Getting the latest changes
+## Syncing your changes
 
 `git pull -u <repo> <branch>`
 
@@ -95,19 +103,21 @@
 * when you are done, make a new commit -- you are now up to date
   (unless someone else just made some more changes...)
 
-# git command line client
+<!-- # git command line client -->
 
-## Uploading your local copy
+## Push & Check
+
+### Uploading your local copy
 
 `git push -u <repo> <branch>`
 
 * Pushes your changes to repo on branch
 * You must have done a `pull` beforehand
 
-## Viewing the change history
+### Viewing the change history
 
 `git log`
 
 * shows a history of local changes
 
-# Demo Time!
+<!-- # Demo Time! -->
